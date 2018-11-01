@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export default props => {
-  let [name, setName] = useState("Vaibhav");
+  let [name, setName] = useState("Name");
   const capitalize = word => {
     if (word !== undefined) {
       const [first, ...rest] = word;
